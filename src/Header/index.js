@@ -1,22 +1,26 @@
 import "./style.css";
-import LogoAZ from "../svg/logoAZ";
+import LogoAZ from "../svg/logoAZ.js";
+
 
 export function Header() {
-  <header>
-    <div className="header_left">
-      <LogoAZ />
-      <div className="nome">André Zambroni</div>
-    </div>
+ return (
+    <header>
+      <div className="header_left">
+        {/* <LogoAZ /> */}
+        <div className="nome">André Zambroni</div>
+      </div>
 
-    <div className="header_right">
-      <button href="#" className="">Sobre</button>
-      <button>Experiencia</button>
-      <button>Habilidade</button>
-      <button>Projetos</button>
-      <button>Sobre</button>
-      <button>Curriculo</button>
-      <button>Contato</button>
-      
-    </div>
-  </header>;
+      <div className="header_right">
+        <button href="#" className="">Sobre</button>
+        <button>Experiencia</button>
+        <button>Habilidade</button>
+        <button>Projetos</button>
+        <button>Sobre</button>
+        <button>Curriculo</button>
+        <button>Contato</button>
+      </div>
+
+      <div class="linha-horizontal"></div>
+    </header>
+ );
 }

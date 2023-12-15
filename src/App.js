@@ -1,14 +1,14 @@
 
 import './App.css';
-import LogoAZ from '../svg/logoAZ';
+import LogoAZ from './svg/logoAZ';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={LogoAZ} className="App-logo" alt="logo" />
+        {/* <img src={LogoAZ} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          
         </p>
         <a
           className="App-link"
